@@ -774,9 +774,11 @@ src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-ope
     margin-top: 25px;
    
   }
-    .owl-nav {
-      text-align: center;
-    }
+  #slider_reviews .owl-nav{
+    display: block;
+    text-align: center;
+  }
+    
     .owl-dots {
       display: none;
     }
@@ -893,6 +895,9 @@ src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-ope
       font-size: 25px;
       color: rgb(91, 93, 168)
     }
+     #slider_about_company .owl-nav{
+    display: block;
+  }
     #slider_about_company .owl-prev {
       left: 0;
       top: 100px;
@@ -905,14 +910,10 @@ src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-ope
     }
     @media (max-width: 1600px){
        #about_company {
-    
-    
         background-size: contain;
       }
     }
-
-
-   @media (max-width: 780px){
+    @media (max-width: 780px){
         #slider_about_company .item {
         padding: 25px 0;
         
@@ -926,10 +927,11 @@ src: url("../fonts/CenturyGothic/CenturyGothic.eot?#iefix") format("embedded-ope
         }
           #about_company:before {
       
-        top: 60px;
+          top: 60px;
       
         }
-      }
+      }  
+ 
 /*footer*/
     footer {
       padding: 60px 0;
